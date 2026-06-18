@@ -1,0 +1,19 @@
+{
+  "num_workers": 8,
+
+  "img_size": 512,
+  "batch_size": 8,
+  "aug_prob": 0.35,
+  "threshold": 0.5,
+
+  "num_epochs": 150,
+  "learning_rate": 0.0001,
+  "patience": 30,
+  "bce_weight": 0.3,
+  "dice_weight": 0.7,
+  "seed": 42,
+  
+  "data_path": "data",
+  "checkpoint_path": "checkpoints",
+  "log_path": "logs"
+}
